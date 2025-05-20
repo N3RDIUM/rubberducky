@@ -12,6 +12,7 @@ in pkgs.mkShell {
         ]))
         pkgs.basedpyright
         pkgs.virtualenv
+        pkgs.ollama
     ];
     buildInputs = [ pkgs.libz ];
 }
