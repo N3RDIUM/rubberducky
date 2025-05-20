@@ -22,6 +22,11 @@ Enter nix shell:
 nix-shell
 ```
 
+Pull model weights:
+```bash
+ollama pull llama3.2
+```
+
 Enter the python virtual environment:
 ```bash
 source ./venv/bin/activate
